@@ -70,6 +70,7 @@ sudo mv /usr/bin/tmux-next /usr/bin/tmux
 ```
 
 Install TPM
+
 - tmux-resurrect
 - tmux-continuum
 
@@ -79,7 +80,26 @@ Install TPM
 
 - make
 - curl
--
+- apt-transport-https
+- ca-certificates
+- software-properties-common
+- python
+- python-pip
+- build-essential
+- libssl-dev
+- zlib1g-dev
+- libbz2-dev
+- libreadline-dev
+- libsqlite3-dev
+- wget
+- llvm
+- libncurses5-dev
+- xz-utils
+- tk-dev
+- libxml2-dev
+- libxmlsec1-dev
+- libffi-dev
+- liblzma-dev
 
 ## Additional Utilities Command Line
 
@@ -93,6 +113,10 @@ Here are several utilities that I have installed
 - fzf
 
 ## Setup Python environment
+
+I follow [jacobian setup](https://jacobian.org/2019/nov/11/python-environment-2020/#atom-entries) to setup my python environment.
+python global apps
+ youtube-dl, awscli, doc2dash
 
 ## Docker Environment
 
